@@ -9,7 +9,7 @@ export default function Main() {
       <article className="grid lg:grid-cols-2">
         <div className="px-8 py-20 md:px-20 lg:py-48">
           <h1 className="text-5xl font-semibold text-transparent md:text-6xl gradient">
-            Auth starts here.
+            Epic Adventures Await.
           </h1>
           <p className="mt-2 text-lg">
            Welcome to MN Games!.
@@ -19,7 +19,7 @@ export default function Main() {
               href="/dashboard"
               className="flex content-center gap-2 px-4 py-2 font-semibold text-white transition-colors duration-200 rounded-lg bg-primary-600 hover:bg-primary-700"
             >
-              Sign in/Sign up
+              Sign-in/Sign-up
               <div className="m-auto">
                 <RightArrow />
               </div>
