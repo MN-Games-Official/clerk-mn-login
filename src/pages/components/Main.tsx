@@ -51,19 +51,20 @@ Welcome we are so glad you could join us!
             href=""
             className="font-medium text-primary-600 hover:underline"
           >
-            Clerk Docs
+          
+            
           </a>
           .
         </p>
         <div className="grid gap-8 mt-8 lg:grid-cols-3">
           <div className="flex flex-col h-56 gap-1 p-8 bg-white shadow-lg rounded-2xl">
-            <h3 className="text-lg font-medium">Customizable Components</h3>
+            <h3 className="text-lg font-medium">Join Now!</h3>
             <p className="text-gray-700">
            Did you know that there are more that 500 games on MN Games?!.
             </p>
             <div className="grow"></div>
             <a
-              href=""
+              href="/dashboard"
               className="text-primary-600 cta hover:underline"
               target="_blank"
             >
@@ -71,13 +72,13 @@ Welcome we are so glad you could join us!
             </a>
           </div>
           <div className="flex flex-col h-56 gap-1 p-8 bg-white shadow-lg rounded-2xl">
-            <h3 className="text-lg font-medium">React Hooks</h3>
+            <h3 className="text-lg font-medium">Login</h3>
             <p className="text-gray-700">
         Sign-up for an account and try it out for yourself.
             </p>
             <div className="grow"></div>
             <a
-              href=""
+              href="/dashboard"
               className="text-primary-600 cta hover:underline"
               target="_blank"
             >
@@ -85,13 +86,13 @@ Welcome we are so glad you could join us!
             </a>
           </div>
           <div className="flex flex-col h-56 gap-1 p-8 bg-white shadow-lg rounded-2xl">
-            <h3 className="text-lg font-medium">Multitenancy</h3>
+            <h3 className="text-lg font-medium">Go Play Games</h3>
             <p className="text-gray-700">
               We would really appreciate if you would share MN Games with friends!
             </p>
             <div className="grow"></div>
             <a
-              href=""
+              href="/dashboard"
               className="text-primary-600 cta hover:underline"
               target="_blank"
             >
