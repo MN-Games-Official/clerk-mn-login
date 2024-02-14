@@ -12,7 +12,7 @@ export default function Main() {
             Epic Adventures Await.
           </h1>
           <p className="mt-2 text-lg">
-           Welcome to MN Games!.
+           Welcome to MN Games!
           </p>
           <div className="flex gap-2 mt-8">
             <Link
@@ -44,7 +44,7 @@ export default function Main() {
         className="px-8 py-12 bg-black bg-opacity-5 md:px-20 md:py-24"
         id="features"
       >
-        <h2 className="text-3xl font-semibold">What's under the hood?</h2>
+        <h2 className="text-3xl font-semibold">Come Join Us!</h2>
         <p className="mt-2">
 Welcome we are so glad you could join us!
           <a
@@ -68,7 +68,7 @@ Welcome we are so glad you could join us!
               className="text-primary-600 cta hover:underline"
               target="_blank"
             >
-              Components <span className="arrow">-&gt;</span>
+              Join MN Games Now <span className="arrow">-&gt;</span>
             </a>
           </div>
           <div className="flex flex-col h-56 gap-1 p-8 bg-white shadow-lg rounded-2xl">
@@ -82,7 +82,7 @@ Welcome we are so glad you could join us!
               className="text-primary-600 cta hover:underline"
               target="_blank"
             >
-              React Hooks <span className="arrow">-&gt;</span>
+              Sign-in To Your Account <span className="arrow">-&gt;</span>
             </a>
           </div>
           <div className="flex flex-col h-56 gap-1 p-8 bg-white shadow-lg rounded-2xl">
@@ -96,7 +96,7 @@ Welcome we are so glad you could join us!
               className="text-primary-600 cta hover:underline"
               target="_blank"
             >
-              Organizations <span className="arrow">-&gt;</span>
+              Play Some Games <span className="arrow">-&gt;</span>
             </a>
           </div>
         </div>
