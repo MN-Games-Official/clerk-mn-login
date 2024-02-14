@@ -12,15 +12,14 @@ export default function Main() {
             Auth starts here.
           </h1>
           <p className="mt-2 text-lg">
-            A simple and powerful Next.js template featuring authentication and
-            user management powered by Clerk.
+           Welcome to MN Games!.
           </p>
           <div className="flex gap-2 mt-8">
             <Link
               href="/dashboard"
               className="flex content-center gap-2 px-4 py-2 font-semibold text-white transition-colors duration-200 rounded-lg bg-primary-600 hover:bg-primary-700"
             >
-              View Demo
+              Sign in/Sign up
               <div className="m-auto">
                 <RightArrow />
               </div>
@@ -47,10 +46,9 @@ export default function Main() {
       >
         <h2 className="text-3xl font-semibold">What's under the hood?</h2>
         <p className="mt-2">
-          This template repo uses some of the following features provided by
-          Clerk. To learn more, read the{" "}
+Welcome we are so glad you could join us!
           <a
-            href="https://clerk.com/docs?utm_source=vercel-template&utm_medium=template_repos&utm_campaign=nextjs_template"
+            href=""
             className="font-medium text-primary-600 hover:underline"
           >
             Clerk Docs
@@ -61,12 +59,11 @@ export default function Main() {
           <div className="flex flex-col h-56 gap-1 p-8 bg-white shadow-lg rounded-2xl">
             <h3 className="text-lg font-medium">Customizable Components</h3>
             <p className="text-gray-700">
-              Prebuilt components to handle essential functionality like user
-              sign-in, sign-up, and account management.
+           Did you know that there are more that 500 games on MN Games?!.
             </p>
             <div className="grow"></div>
             <a
-              href="https://clerk.com/docs/component-reference/overview?utm_source=vercel-template&utm_medium=template_repos&utm_campaign=nextjs_template"
+              href=""
               className="text-primary-600 cta hover:underline"
               target="_blank"
             >
@@ -76,12 +73,11 @@ export default function Main() {
           <div className="flex flex-col h-56 gap-1 p-8 bg-white shadow-lg rounded-2xl">
             <h3 className="text-lg font-medium">React Hooks</h3>
             <p className="text-gray-700">
-              Build custom functionality by accessing auth state, user and
-              session data, and more with Clerk's React Hooks.
+        Sign-up for an account and try it out for yourself.
             </p>
             <div className="grow"></div>
             <a
-              href="https://clerk.com/docs/reference/clerk-react/useuser?utm_source=vercel-template&utm_medium=template_repos&utm_campaign=nextjs_template"
+              href=""
               className="text-primary-600 cta hover:underline"
               target="_blank"
             >
@@ -91,12 +87,11 @@ export default function Main() {
           <div className="flex flex-col h-56 gap-1 p-8 bg-white shadow-lg rounded-2xl">
             <h3 className="text-lg font-medium">Multitenancy</h3>
             <p className="text-gray-700">
-              Seamlessly create and switch between organizations, invite and
-              manage members, and assign custom roles.
+              We would really appreciate if you would share MN Games with friends!
             </p>
             <div className="grow"></div>
             <a
-              href="https://clerk.com/docs/organizations/overview?utm_source=vercel-template&utm_medium=template_repos&utm_campaign=nextjs_template"
+              href=""
               className="text-primary-600 cta hover:underline"
               target="_blank"
             >
