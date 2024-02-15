@@ -16,10 +16,19 @@ export default function Main() {
           </p>
           <div className="flex gap-2 mt-8">
             <Link
-              href="/dashboard"
+              href="https://together-ghoul-7.accounts.dev/sign-in?redirect_url=https%3A%2F%2Fmn.meeps.us%2Fdashboard"
               className="flex content-center gap-2 px-4 py-2 font-semibold text-white transition-colors duration-200 rounded-lg bg-primary-600 hover:bg-primary-700"
             >
-              Sign-in/Sign-up
+              Sign-in
+              <div className="m-auto">
+                <RightArrow />
+              </div>
+            </Link>
+             <Link
+              href="https://together-ghoul-7.accounts.dev/sign-up?redirect_url=https%3A%2F%2Fmn.meeps.us%2Fdashboard"
+              className="flex content-center gap-2 px-4 py-2 font-semibold text-white transition-colors duration-200 rounded-lg bg-primary-600 hover:bg-primary-700"
+            >
+              Sign-up
               <div className="m-auto">
                 <RightArrow />
               </div>
@@ -36,7 +45,7 @@ export default function Main() {
           </div>
         </div>
         <div className="flex flex-col justify-center">
-          <img src={componentsImg} alt="Clerk embeddable components" />
+          <Image src={componentsImg} alt="Clerk embeddable components" />
         </div>
       </article>
 
