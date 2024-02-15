@@ -16,10 +16,20 @@ export default function Main() {
           </p>
           <div className="flex gap-2 mt-8">
             <Link
-              href="/dashboard"
+              href="https://together-ghoul-7.accounts.dev/sign-in"
               className="flex content-center gap-2 px-4 py-2 font-semibold text-white transition-colors duration-200 rounded-lg bg-primary-600 hover:bg-primary-700"
             >
-              Sign-in/Sign-up
+              Sign-in
+              <div className="m-auto">
+                <RightArrow />
+              </div>
+            </Link>
+            <div className="flex gap-2 mt-8">
+            <Link
+              href="https://together-ghoul-7.accounts.dev/sign-up"
+              className="flex content-center gap-2 px-4 py-2 font-semibold text-white transition-colors duration-200 rounded-lg bg-primary-600 hover:bg-primary-700"
+            >
+              Sign-up
               <div className="m-auto">
                 <RightArrow />
               </div>
