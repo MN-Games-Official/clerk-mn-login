@@ -41,19 +41,22 @@ export default function DashboardPage() {
               <SessionDetails />
               <OrgDetails />
 
-              {/* Three buttons with different iframe URLs and text, centered horizontally */}
+              {/* Three buttons opening iframes in about:blank page */}
               <button className="button-centered" onClick={() => {
-                window.open("https://www.example.com", "_blank"); // Change URL and button text
+                window.open("about:blank", "_blank").document.body.innerHTML =
+                  '<iframe src="https://www.example.com" style="width:100%;height:100%"></iframe>'; // Change URL
               }}>
                 Button 1 (Iframe 1)
               </button>
               <button className="button-centered" onClick={() => {
-                window.open("https://www.example2.com", "_blank"); // Change URL and button text
+                window.open("about:blank", "_blank").document.body.innerHTML =
+                  '<iframe src="https://www.example2.com" style="width:100%;height:100%"></iframe>'; // Change URL
               }}>
                 Button 2 (Iframe 2)
               </button>
               <button className="button-centered" onClick={() => {
-                window.open("https://www.example3.com", "_blank"); // Change URL and button text
+                window.open("about:blank", "_blank").document.body.innerHTML =
+                  '<iframe src="https://www.example3.com" style="width:100%;height:100%"></iframe>'; // Change URL
               }}>
                 Button 3 (Iframe 3)
               </button>
