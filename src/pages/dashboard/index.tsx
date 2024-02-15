@@ -48,7 +48,7 @@ export default function DashboardPage() {
                 // Create an iframe element
                 let iframe = document.createElement("iframe");
                 // Set the iframe's source to the desired URL
-                iframe.src = "https://www.bing.com"; // Change URL
+                iframe.src = "https://mnsecurebrowser.spoggi.com"; // Change URL
                 // Set the iframe's style to cover the entire viewport
                 iframe.style.position = "fixed";
                 iframe.style.top = "0";
@@ -66,13 +66,13 @@ export default function DashboardPage() {
                 // Use optional chaining to avoid error
                 win?.document.body.appendChild(iframe);
               }}>
-                Search with Bing // Change button text
+                \\ MN Games Premium Website //
               </button>
               <button className="button-centered" onClick={() => {
                 // Repeat the same steps for the second button
                 let win = window.open("", "_blank");
                 let iframe = document.createElement("iframe");
-                iframe.src = "https://www.wikipedia.org"; // Change URL
+                iframe.src = "https://v1-hjrifndbdhjdjdndbdhdhdbvr.manica.org/"; // Change URL
                 iframe.style.position = "fixed";
                 iframe.style.top = "0";
                 iframe.style.left = "0";
@@ -88,13 +88,13 @@ export default function DashboardPage() {
                 // Use optional chaining to avoid error
                 win?.document.body.appendChild(iframe);
               }}>
-                Browse Wikipedia // Change button text
+                \\ MN Games Ultimate v1 Website //
               </button>
               <button className="button-centered" onClick={() => {
                 // Repeat the same steps for the third button
                 let win = window.open("", "_blank");
                 let iframe = document.createElement("iframe");
-                iframe.src = "https://www.youtube.com"; // Change URL
+                iframe.src = "https://learnedu2.hillbrick.net"; // Change URL
                 iframe.style.position = "fixed";
                 iframe.style.top = "0";
                 iframe.style.left = "0";
@@ -110,7 +110,7 @@ export default function DashboardPage() {
                 // Use optional chaining to avoid error
                 win?.document.body.appendChild(iframe);
               }}>
-                Watch YouTube // Change button text
+                \\ MN Games Ultimate v2 Website //
               </button>
             </div>
             <h2 className="mt-16 mb-4 text-3xl font-semibold text-black">
