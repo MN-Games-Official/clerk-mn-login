@@ -45,8 +45,9 @@ export default function DashboardPage() {
         /* Add this CSS to your Next.js page */
         .button-top {
           position: fixed;
-          top: 20px;
-          left: 20px;
+          top: 50%;
+          left: 50%;
+          transform: translate(-50%, -50%);
           z-index: 9999; /* Ensure the button is above other elements */
         }
       `}</style>
