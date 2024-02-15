@@ -51,7 +51,7 @@ Welcome we are so glad you could join us!
             href=""
             className="font-medium text-primary-600 hover:underline"
           >
-          <!--Start of Tawk.to Script-->
+         
 <script type="text/javascript">
 var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
 (function(){
@@ -63,7 +63,7 @@ s1.setAttribute('crossorigin','*');
 s0.parentNode.insertBefore(s1,s0);
 })();
 </script>
-<!--End of Tawk.to Script-->
+
             
           </a>
           .
