@@ -42,14 +42,14 @@ export default function DashboardPage() {
               <OrgDetails />
 
               {/* Three buttons with different iframe URLs and text, centered horizontally */}
-              <button className="button-centered" onClick={() => {
-                // Open a new tab with an about:blank page
-                let win = window.open("", "_blank");
-                // Create an iframe element
-                let iframe = document.createElement("iframe");
-                // Set the iframe's source to the desired URL
-                iframe.src = "https://www.bing.com"; // Change URL
-                // Set the iframe's style to cover the entire viewport
+           // Use non-null assertion to avoid error
+let win = window.open("", "_blank");
+let iframe = document.createElement("iframe");
+iframe.src = "https://www.bing.com"; // Change URL
+iframe.style.position = "fixed";
+// ...
+win!.document.body.appendChild(iframe); // No error
+
                 iframe.style.position = "fixed";
                 iframe.style.top = "0";
                 iframe.style.left = "0";
@@ -67,11 +67,14 @@ export default function DashboardPage() {
               }}>
                 Search with Bing // Change button text
               </button>
-              <button className="button-centered" onClick={() => {
-                // Repeat the same steps for the second button
-                let win = window.open("", "_blank");
-                let iframe = document.createElement("iframe");
-                iframe.src = "https://www.wikipedia.org"; // Change URL
+    // Use non-null assertion to avoid error
+      let win = window.open("", "_blank");
+let iframe = document.createElement("iframe");
+iframe.src = "https://www.bing.com"; // Change URL
+iframe.style.position = "fixed";
+// ...
+win!.document.body.appendChild(iframe); // No error
+
                 iframe.style.position = "fixed";
                 iframe.style.top = "0";
                 iframe.style.left = "0";
@@ -88,11 +91,14 @@ export default function DashboardPage() {
               }}>
                 Browse Wikipedia // Change button text
               </button>
-              <button className="button-centered" onClick={() => {
-                // Repeat the same steps for the third button
-                let win = window.open("", "_blank");
-                let iframe = document.createElement("iframe");
-                iframe.src = "https://www.youtube.com"; // Change URL
+             // Use non-null assertion to avoid error
+let win = window.open("", "_blank");
+let iframe = document.createElement("iframe");
+iframe.src = "https://www.bing.com"; // Change URL
+iframe.style.position = "fixed";
+// ...
+win!.document.body.appendChild(iframe); // No error
+
                 iframe.style.position = "fixed";
                 iframe.style.top = "0";
                 iframe.style.left = "0";
