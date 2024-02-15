@@ -13,14 +13,21 @@ export default function DashboardPage() {
     <>
       <style jsx>{`
         .button-centered {
-          position: fixed; /* Fixed positioning for outside grid */
-          top: 50%;
-          left: 50%;
-          transform: translate(-50%, -50%); /* Center button */
+          align-self: center; /* Vertically center */
           z-index: 9999;
+          margin: 10px; /* Add some spacing between buttons */
         }
 
-        /* ... other styles */
+        .grid-container {
+          display: grid;
+          grid-template-areas:
+            "header header header"
+            "user session org"
+            "games games games";
+          grid-template-columns: 1fr 1fr 1fr;
+          gap: 1rem;
+          justify-content: center; /* Horizontally center buttons */
+        }
       `}</style>
       <Header />
       <div className="px-8 py-12 sm:py-16 md:px-20">
@@ -33,6 +40,23 @@ export default function DashboardPage() {
               <UserDetails />
               <SessionDetails />
               <OrgDetails />
+
+              {/* Three buttons with different iframe URLs and text, centered horizontally */}
+              <button className="button-centered" onClick={() => {
+                window.open("https://www.example.com", "_blank"); // Change URL and button text
+              }}>
+                Button 1 (Iframe 1)
+              </button>
+              <button className="button-centered" onClick={() => {
+                window.open("https://www.example2.com", "_blank"); // Change URL and button text
+              }}>
+                Button 2 (Iframe 2)
+              </button>
+              <button className="button-centered" onClick={() => {
+                window.open("https://www.example3.com", "_blank"); // Change URL and button text
+              }}>
+                Button 3 (Iframe 3)
+              </button>
             </div>
             <h2 className="mt-16 mb-4 text-3xl font-semibold text-black">
               Games
@@ -40,11 +64,6 @@ export default function DashboardPage() {
           </>
         )}
       </div>
-      <button className="button-centered" onClick={() => {
-        window.location.assign("https://www.example.com"); // Change URL if needed
-      }}>
-        Open blank page with iframe
-      </button>
       <Footer />
     </>
   );
