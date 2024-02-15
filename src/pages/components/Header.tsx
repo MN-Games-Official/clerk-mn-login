@@ -8,16 +8,16 @@ export default function Header() {
     <header className="flex items-center h-20 gap-4 px-4 border-b border-black border-solid sm:px-8 border-opacity-20">
       <Link href="/" className="flex items-center h-20 gap-2 sm:gap-4">
         <Image
-          src="/clerk.svg"
-          alt="Clerk Logo"
+          src="
+          alt="MN Games"
           width={102}
           height={32}
           priority
         />
         <Times />
         <Image
-          src="/next.svg"
-          alt="Next.js Logo"
+          src=""
+          alt="MN Games"
           width={90}
           height={18}
           priority
