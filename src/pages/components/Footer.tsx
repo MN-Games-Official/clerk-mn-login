@@ -18,7 +18,7 @@ export default function Footer() {
           href=""
         >
           <div className="m-auto">
-            <Docs />
+            <Sign-up />
           </div>
           <span className="hidden sm:inline"></span>
           <span className="inline sm:hidden"></span>
@@ -28,21 +28,21 @@ export default function Footer() {
           href="https://together-ghoul-7.accounts.dev/sign-up"
         >
           <div className="m-auto">
-            <Github />
+            < />
           </div>
           <span className="hidden sm:inline"> View on Github</span>
         </a>
         <a
           className="flex flex-col justify-center p-2 hover:underline"
-          href="https://twitter.com/ClerkDev"
+          href=""
         >
-          <Twitter />
+          < />
         </a>
         <a
           className="flex flex-col justify-center p-2 hover:underline"
-          href="https://discord.com/invite/b5rXHjAg7A"
+          href=""
         >
-          <Discord />
+          < />
         </a>
       </nav>
     </footer>
