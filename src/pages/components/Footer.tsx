@@ -16,6 +16,33 @@ export default function Footer() {
         <a
           className="flex gap-2 px-3 py-2 text-sm font-semibold text-gray-600 transition duration-100 rounded-md hover:text-gray-800"
           href=""
+                  >
+          <div className="m-auto">
+            <Docs />
+          </div>
+          <span className="hidden sm:inline"></span>
+          <span className="inline sm:hidden"></span>
+        </a>
+        <a
+          className="flex gap-2 px-3 py-2 text-sm font-semibold text-gray-600 transition duration-100 rounded-md hover:text-gray-800"
+          href="https://together-ghoul-7.accounts.dev/sign-up"
+        >
+          <div className="m-auto">
+            <github />
+          </div>
+          <span className="hidden sm:inline"> View on Github</span>
+        </a>
+        <a
+          className="flex flex-col justify-center p-2 hover:underline"
+          href=""
+        >
+          <twitter />
+        </a>
+        <a
+          className="flex flex-col justify-center p-2 hover:underline"
+          href=""
+          <discord />
+        >
         </a>
       </nav>
     </footer>
