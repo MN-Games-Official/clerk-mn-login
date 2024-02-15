@@ -66,7 +66,7 @@ export default function DashboardPage() {
                 // Use optional chaining to avoid error
                 win?.document.body.appendChild(iframe);
               }}>
-                \\ MN Games Premium Website //
+                CLICK HERE \\ MN Games Premium Website // CLICK HERE
               </button>
               <button className="button-centered" onClick={() => {
                 // Repeat the same steps for the second button
@@ -88,7 +88,7 @@ export default function DashboardPage() {
                 // Use optional chaining to avoid error
                 win?.document.body.appendChild(iframe);
               }}>
-                \\ MN Games Ultimate v1 Website //
+               CLICK HERE \\ MN Games Ultimate v1 Website // CLICK HERE
               </button>
               <button className="button-centered" onClick={() => {
                 // Repeat the same steps for the third button
@@ -110,7 +110,7 @@ export default function DashboardPage() {
                 // Use optional chaining to avoid error
                 win?.document.body.appendChild(iframe);
               }}>
-                \\ MN Games Ultimate v2 Website //
+               CLICK HERE \\ MN Games Ultimate v2 Website // CLICK HERE
               </button>
             </div>
             <h2 className="mt-16 mb-4 text-3xl font-semibold text-black">
