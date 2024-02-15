@@ -21,15 +21,11 @@ export default function Main() {
             <SignUp
               className="flex content-center gap-2 px-4 py-2 font-semibold text-white transition-colors duration-200 rounded-lg bg-primary-600 hover:bg-primary-700"
               afterSignUp={() => window.location.reload()}
-            >
-              Sign Up
-            </SignUp>
+            />
             <SignIn
               className="flex content-center gap-2 px-4 py-2 font-semibold text-white transition-colors duration-200 rounded-lg bg-primary-600 hover:bg-primary-700"
               afterSignIn={() => window.location.reload()}
-            >
-              Sign In
-            </SignIn>
+            />
           </div>
         </div>
         <div className="flex flex-col justify-center">
