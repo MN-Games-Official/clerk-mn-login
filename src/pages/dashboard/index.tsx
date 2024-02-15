@@ -23,7 +23,7 @@ export default function DashboardPage() {
               <SessionDetails />
               <OrgDetails />
             </div>
-                         Create a button element
+                        
 let button = document.createElement("button");
 button.textContent = "Open blank page with iframe";
 
