@@ -33,6 +33,15 @@ export default function Main() {
                 <RightArrow />
               </div>
             </Link>
+            <Link
+              href="/dashboard"
+              className="flex content-center gap-2 px-4 py-2 font-semibold text-white transition-colors duration-200 rounded-lg bg-primary-600 hover:bg-primary-700"
+            >
+              MN Games Dashboard
+              <div className="m-auto">
+                <RightArrow />
+              </div>
+            </Link>
             <a
               className="flex gap-2 px-4 py-2 font-semibold text-gray-600 transition duration-100 rounded-lg hover:text-gray-800"
               href="#features"
