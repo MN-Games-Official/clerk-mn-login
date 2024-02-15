@@ -16,19 +16,10 @@ export default function Main() {
           </p>
           <div className="flex gap-2 mt-8">
             <Link
-              href="https://together-ghoul-7.accounts.dev/sign-in?redirect_url=https%3A%2F%2Fmn.meeps.us%2F%23__clerk_db_jwt%5BeyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJkZXYiOiJkdmJfMmNQTE1BbWRUb29YRzNYUkU0eGJmcDRwNUJQIiwiaWQiOiJjbGllbnRfMmNQVk92WENScVpiNWozREYzYUVIVDhKNjcwIiwicm90YXRpbmdfdG9rZW4iOiI0MTM4M2xsbDYxbXBvOTIzdm16NjBtdWwzbnh5MDVrZWhnajJvZjFtIn0.j-4FiRNG7EaVzwvCxT0Je4lRP7Z0jwZwdCW2pPYF213oSJcRQu8To581iVwrCeRKhsQ8JX7_ZWHw5Vmn90acLaC1kxsjxYzhXVWnAZJQMGcoXZCjibPekXbOjH44_urRtnVj8awXETZat0SzrJb4WWRNT8xHj2Rm9MR381KP8gSVh9iaWILqt6maZtCMlEuX2womBIwFhhYbAHGgCXisNMA08_JfCvd3LAPdWnPJzx-E-kHeDTuhAkVTs1Q_b10c267cDR_IFYVAasOYx6cOqXHzYPd3JfKz8uZJLZjRyJXV9h4WnqV4nS-tS_j0glizpyHP2CSJGR35ma03fKvTxA%5D"
+              href="/dashboard"
               className="flex content-center gap-2 px-4 py-2 font-semibold text-white transition-colors duration-200 rounded-lg bg-primary-600 hover:bg-primary-700"
             >
-              Sign-in
-              <div className="m-auto">
-                <RightArrow />
-              </div>
-            </Link>
-            <Link
-              href="https://together-ghoul-7.accounts.dev/sign-up?redirect_url=https%3A%2F%2Fmn.meeps.us%2F%23__clerk_db_jwt%5BeyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJkZXYiOiJkdmJfMmNQTE1BbWRUb29YRzNYUkU0eGJmcDRwNUJQIiwiaWQiOiJjbGllbnRfMmNQVk92WENScVpiNWozREYzYUVIVDhKNjcwIiwicm90YXRpbmdfdG9rZW4iOiI0MTM4M2xsbDYxbXBvOTIzdm16NjBtdWwzbnh5MDVrZWhnajJvZjFtIn0.j-4FiRNG7EaVzwvCxT0Je4lRP7Z0jwZwdCW2pPYF213oSJcRQu8To581iVwrCeRKhsQ8JX7_ZWHw5Vmn90acLaC1kxsjxYzhXVWnAZJQMGcoXZCjibPekXbOjH44_urRtnVj8awXETZat0SzrJb4WWRNT8xHj2Rm9MR381KP8gSVh9iaWILqt6maZtCMlEuX2womBIwFhhYbAHGgCXisNMA08_JfCvd3LAPdWnPJzx-E-kHeDTuhAkVTs1Q_b10c267cDR_IFYVAasOYx6cOqXHzYPd3JfKz8uZJLZjRyJXV9h4WnqV4nS-tS_j0glizpyHP2CSJGR35ma03fKvTxA%5D"
-              className="flex content-center gap-2 px-4 py-2 font-semibold text-white transition-colors duration-200 rounded-lg bg-primary-600 hover:bg-primary-700"
-            >
-              Sign-up
+              Sign-in/Sign-up
               <div className="m-auto">
                 <RightArrow />
               </div>
