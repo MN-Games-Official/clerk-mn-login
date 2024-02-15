@@ -23,17 +23,31 @@ export default function DashboardPage() {
               <SessionDetails />
               <OrgDetails />
             </div>
+                         Create a button element
+let button = document.createElement("button");
+button.textContent = "Open blank page with iframe";
+
+// Add a click event listener to the button
+button.addEventListener("click", function() {
+  // Create a new window with about:blank as the URL
+  let win = window.open("about:blank", "_blank");
+
+  // Create an iframe element
+  let iframe = document.createElement("iframe");
+  iframe.src = "https://www.example.com"; // Change this to your desired URL
+  iframe.style.width = "100%"; // Set the iframe width to 100% of the window
+  iframe.style.height = "100%"; // Set the iframe height to 100% of the window
+  iframe.style.border = "none"; // Remove the iframe border
+
+  // Append the iframe to the new window's document body
+  win.document.body.appendChild(iframe);
+});
+
+// Append the button to the current document body
+document.body.appendChild(button);
             <h2 className="mt-16 mb-4 text-3xl font-semibold text-black">
-              What's next?
+           Games
             </h2>
-            Read the{" "}
-            <Link
-              className="font-medium text-primary-600 hover:underline"
-              href="https://clerk.com/docs?utm_source=vercel-template&utm_medium=template_repos&utm_campaign=nextjs_template"
-              target="_blank"
-            >
-              Clerk Docs -&gt;
-            </Link>
           </>
         )}
       </div>
