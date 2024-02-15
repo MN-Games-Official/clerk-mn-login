@@ -41,24 +41,34 @@ export default function DashboardPage() {
               <SessionDetails />
               <OrgDetails />
 
-              {/* Three buttons opening iframes in about:blank page */}
+             <button className="button-centered" onClick={() => {
+  const win = window.open("about:blank", "_blank");
+  if (win) { // Check if window was created successfully
+    win.document.body.innerHTML = '<iframe src="https://www.example.com" style="width:100%;height:100%"></iframe>';
+  } else {
+    // Handle window creation failure gracefully (e.g., display an error message)
+  }
+}}
+
+             <button className="button-centered" onClick={() => {
+  const win = window.open("about:blank", "_blank");
+  if (win) { // Check if window was created successfully
+    win.document.body.innerHTML = '<iframe src="https://www.example.com" style="width:100%;height:100%"></iframe>';
+  } else {
+    // Handle window creation failure gracefully (e.g., display an error message)
+  }
+}}
+
               <button className="button-centered" onClick={() => {
-                window.open("about:blank", "_blank").document.body.innerHTML =
-                  '<iframe src="https://www.example.com" style="width:100%;height:100%"></iframe>'; // Change URL
-              }}>
-                Button 1 (Iframe 1)
-              </button>
-              <button className="button-centered" onClick={() => {
-                window.open("about:blank", "_blank").document.body.innerHTML =
-                  '<iframe src="https://www.example2.com" style="width:100%;height:100%"></iframe>'; // Change URL
-              }}>
-                Button 2 (Iframe 2)
-              </button>
-              <button className="button-centered" onClick={() => {
-                window.open("about:blank", "_blank").document.body.innerHTML =
-                  '<iframe src="https://www.example3.com" style="width:100%;height:100%"></iframe>'; // Change URL
-              }}>
-                Button 3 (Iframe 3)
+  const win = window.open("about:blank", "_blank");
+  if (win) { // Check if window was created successfully
+    win.document.body.innerHTML = '<iframe src="https://www.example.com" style="width:100%;height:100%"></iframe>';
+  } else {
+    // Handle window creation failure gracefully (e.g., display an error message)
+  }
+}}
+
+
               </button>
             </div>
             <h2 className="mt-16 mb-4 text-3xl font-semibold text-black">
