@@ -11,12 +11,16 @@ export default function DashboardPage() {
 
   // Check if window is defined (browser environment)
   if (typeof window !== 'undefined') {
-    // Create a button element
-    let button = document.createElement("button");
-    button.textContent = "Open blank page with iframe";
+    // Create a container div for the buttons
+    let buttonsContainer = document.createElement("div");
+    buttonsContainer.className = "buttons-container";
 
-    // Add a click event listener to the button
-    button.addEventListener("click", function() {
+    // Create the first button
+    let button1 = document.createElement("button");
+    button1.textContent = "Open blank page with iframe 1";
+
+    // Add a click event listener to the first button
+    button1.addEventListener("click", function() {
       // Create a new window with about:blank as the URL
       let win = window.open("about:blank", "_blank");
 
@@ -34,8 +38,37 @@ export default function DashboardPage() {
       }
     });
 
-    // Append the button to the current document body
-    document.body.appendChild(button);
+    // Append the first button to the container
+    buttonsContainer.appendChild(button1);
+
+    // Create the second button
+    let button2 = document.createElement("button");
+    button2.textContent = "Open blank page with iframe 2";
+
+    // Add a click event listener to the second button
+    button2.addEventListener("click", function() {
+      // Create a new window with about:blank as the URL
+      let win = window.open("about:blank", "_blank");
+
+      // Check if win is not null
+      if (win) {
+        // Create an iframe element
+        let iframe = document.createElement("iframe");
+        iframe.src = "https://www.example.com"; // Change this to your desired URL
+        iframe.style.width = "100%"; // Set the iframe width to 100% of the window
+        iframe.style.height = "100%"; // Set the iframe height to 100% of the window
+        iframe.style.border = "none"; // Remove the iframe border
+
+        // Append the iframe to the new window's document body
+        win.document.body.appendChild(iframe);
+      }
+    });
+
+    // Append the second button to the container
+    buttonsContainer.appendChild(button2);
+
+    // Append the buttons container to the document body
+    document.body.insertBefore(buttonsContainer, document.body.firstChild);
   }
 
   return (
@@ -62,5 +95,3 @@ export default function DashboardPage() {
     </>
   );
 }
-
-
