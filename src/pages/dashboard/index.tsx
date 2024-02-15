@@ -16,6 +16,8 @@ export default function DashboardPage() {
           align-self: center; /* Vertically center */
           z-index: 9999;
           margin: 10px; /* Add some spacing between buttons */
+          border: 1px solid #000; /* Add border to buttons */
+          padding: 8px 16px; /* Add padding to buttons */
         }
 
         .grid-container {
