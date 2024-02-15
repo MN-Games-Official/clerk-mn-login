@@ -16,7 +16,6 @@ export default function Footer() {
         <a
           className="flex gap-2 px-3 py-2 text-sm font-semibold text-gray-600 transition duration-100 rounded-md hover:text-gray-800"
           href=""
-          < />
         </a>
       </nav>
     </footer>
