@@ -146,7 +146,7 @@ export function Twitter() {
   );
 }
 
-export function Discord() {
+export function Discords() {
   return (
     <svg
       width="20"
