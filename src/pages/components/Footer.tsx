@@ -18,7 +18,7 @@ export default function Footer() {
           href=""
         >
           <div className="m-auto">
-            <Sign-up />
+            <Docs />
           </div>
           <span className="hidden sm:inline"></span>
           <span className="inline sm:hidden"></span>
