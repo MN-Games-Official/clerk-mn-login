@@ -24,7 +24,6 @@ export default function Main() {
                 <RightArrow />
               </div>
             </Link>
-            <div className="flex gap-2 mt-8">
             <Link
               href="https://together-ghoul-7.accounts.dev/sign-up"
               className="flex content-center gap-2 px-4 py-2 font-semibold text-white transition-colors duration-200 rounded-lg bg-primary-600 hover:bg-primary-700"
