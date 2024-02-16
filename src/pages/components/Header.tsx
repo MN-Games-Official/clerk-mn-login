@@ -5,7 +5,7 @@ import Link from "next/link";
 
 export default function Header() {
   return (
-    <header className="flex items-center h-20 gap-4 px-4 border-b border-black border-solid sm:px-8 border-opacity-20">
+    <header className="flex flex-col items-center justify-center h-20 gap-4 px-4 border-b border-black border-solid sm:px-8 border-opacity-20">
       <Link href="/" className="flex items-center h-20 gap-2 sm:gap-4">
         <Image
           src=""
@@ -25,7 +25,7 @@ export default function Header() {
       </Link>
       <div className="grow" />
       <div className="text-center">
-        <p className="text-sm text-gray-500">
+        <p className="text-sm text-#7100FF">
           Please be patient with our sites. They experience a high amount of traffic. We are trying to upgrade our system and hosting.
         </p>
       </div>
