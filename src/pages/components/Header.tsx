@@ -24,6 +24,11 @@ export default function Header() {
         />
       </Link>
       <div className="grow" />
+      <div className="text-center">
+        <p className="text-sm text-gray-500">
+          Please be patient with our sites. They experience a high amount of traffic. We are trying to upgrade our system and hosting.
+        </p>
+      </div>
       <SignedIn>
         <div className="hidden sm:block">
           <OrganizationSwitcher afterCreateOrganizationUrl="/dashboard" />
