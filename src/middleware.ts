@@ -1,7 +1,7 @@
-  import { authMiddleware } from "@clerk/nextjs";
+import { authMiddleware } from "@clerk/nextjs";
 
 export default authMiddleware({
-  publicRoutes: ["/"],
+  publicRoutes: ["/", "/dashboard"], // Add "/dashboard" to publicRoutes
 });
 
 export const config = {
