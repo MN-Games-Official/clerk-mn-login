@@ -6,7 +6,7 @@ import UserDetails from "./UserDetails";
 import SessionDetails from "./SessionDetails";
 import OrgDetails from "./OrgDetails";
 
-export default function DashboardPage() {
+ export default function DashboardPage() {
   const { user } = useUser();
 
   return (
