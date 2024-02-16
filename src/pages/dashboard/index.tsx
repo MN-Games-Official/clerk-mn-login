@@ -36,7 +36,7 @@ export default function DashboardPage() {
         {user && (
           <>
             <h1 className="text-3xl font-semibold text-black">
-               Hi, {user.firstName || "Stranger"}
+               Hi, {user.firstName || "Stranger"} Please scroll to the buttons below your user info to play games!
             </h1>
             <div className="grid-container">
               <UserDetails />
