@@ -1,4 +1,4 @@
-import Image from "next/image";
+ import Image from "next/image";
 import Link from "next/link";
 import componentsImg from "@/assets/components.svg";
 import { DownArrow, RightArrow } from "@/icons";
