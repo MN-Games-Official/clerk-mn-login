@@ -26,7 +26,7 @@ export default function Header() {
       <div className="grow" />
       <div className="text-center">
         <p className="text-sm text-purple-500">
-          Please be patient with our sites. They experience a high amount of traffic. Update! Please expect frequent game site outages over the weekend! We will be upgrading our site so that our websites will be faster and more efficient! We will also be making some of the following updates: Removing Ultimate v2. Adding up to 30 new games to Ultimate v1.! Thanks for your patience!
+          Update! Please expect frequent game site outages over the weekend! We will be upgrading our site so that our websites will be faster and more efficient! We will also be making some of the following updates: Removing Ultimate v2. Adding up to 30 new games to Ultimate v1.! Thanks for your patience!
         </p>
       </div>
       <SignedIn>
