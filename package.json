@@ -1,7 +1,6 @@
 {
   "name": "clerk-next-app-pages",
   "version": "0.1.0",
-  "homepage": "https://learnedupremium.basiclue.com",
   "private": true,
   "scripts": {
     "dev": "next dev",
