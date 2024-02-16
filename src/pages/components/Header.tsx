@@ -24,8 +24,8 @@ export default function Header() {
         />
       </Link>
       <div className="grow" />
-      <div className="text-center">
-        <p className="text-sm text-#7100FF">
+      <div>
+        <p className="text-sm text-#8A2BE2">
           Please be patient with our sites. They experience a high amount of traffic. We are trying to upgrade our system and hosting.
         </p>
       </div>
